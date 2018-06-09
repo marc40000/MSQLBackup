@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LocalDebuggerCommandArguments>(local)\SQLEXPRESS sa as backups\ 1</LocalDebuggerCommandArguments>
+    <LocalDebuggerWorkingDirectory>C:\meinedat\projects\BackupTool\specialbackups\sqlserverbackuptool\WORK</LocalDebuggerWorkingDirectory>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LocalDebuggerCommandArguments>(local)\SQLEXPRESS sa as backups\ 1</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerWorkingDirectory>C:\meinedat\projects\BackupTool\specialbackups\sqlserverbackuptool\WORK</LocalDebuggerWorkingDirectory>
+  </PropertyGroup>
+</Project>

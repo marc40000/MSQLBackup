@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\MLibs2">
+      <UniqueIdentifier>{26d37346-314c-49bd-8387-ea972a893a53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\MLibs2\MSQL">
+      <UniqueIdentifier>{8d18d509-4359-4376-abf4-798aadd4cbad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MLibs2">
+      <UniqueIdentifier>{6ad1f81c-f17b-4b9d-97d5-6a019836ab82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MLibs2\MSQL">
+      <UniqueIdentifier>{cf8715e2-8b23-47fe-be18-3bd94cec1f78}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MLibs2\MSQL\MSQLSQLServerRecordSet.h">
+      <Filter>Header Files\MLibs2\MSQL</Filter>
+    </ClInclude>
+    <ClInclude Include="MLibs2\MSQL\MSQLSQLServer.h">
+      <Filter>Header Files\MLibs2\MSQL</Filter>
+    </ClInclude>
+    <ClInclude Include="MLibs2\MPath.h">
+      <Filter>Header Files\MLibs2</Filter>
+    </ClInclude>
+    <ClInclude Include="MLibs2\MPlatform.h">
+      <Filter>Header Files\MLibs2</Filter>
+    </ClInclude>
+    <ClInclude Include="MLibs2\MPlatformWin32.h">
+      <Filter>Header Files\MLibs2</Filter>
+    </ClInclude>
+    <ClInclude Include="MLibs2\MShellExecuteWait.h">
+      <Filter>Header Files\MLibs2</Filter>
+    </ClInclude>
+    <ClInclude Include="MLibs2\MString.h">
+      <Filter>Header Files\MLibs2</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MSQLBackup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MLibs2\MSQL\MSQLSQLServer.cpp">
+      <Filter>Source Files\MLibs2\MSQL</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
